@@ -6,9 +6,9 @@ html{scroll-behavior:smooth}
 .font-500{font-weight:500!important}
 .form-control{border:1px solid #656565}
 .select2-container{z-index:9999}
-.treatment_all_comm_div p{font-size:18px!important;color:#000;font-weight:300}
+.treatment_all_comm_div p{font-size:18px;color:#000;font-weight:300; line-height: auto}
 @media (max-width:1440px){
-.treatment_all_comm_div p{font-size:16px!important;color:#000}
+.treatment_all_comm_div p{font-size:16px;color:#000}
 }
 header{background:#fef6e2;min-height:60px;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;box-shadow:0 4px 10px 0 rgba(0,0,0,.06)}
 @media (max-width:600px){
@@ -133,7 +133,7 @@ header{background:#fef6e2;position:fixed;top:0;z-index:1000!important}
 /*=====================================================================*/
 .treatment_all_comm_div.icon_without_bg_section{margin-top:40px}
 .treatment_all_comm_div.icon_without_bg_section .icon_box_why{width:56px;height:56px;padding:5px 0;margin-right:12px;background-color:#fff;border-radius:6px;text-align:center}
-.treatment_all_comm_div.icon_without_bg_section p{line-height:normal;font-size:18px!important;font-weight:300;line-height:normal;margin-bottom:0}
+.treatment_all_comm_div.icon_without_bg_section p{font-size:18px!important;font-weight:300;margin-bottom:0}
 .treatment_all_comm_div.icon_without_bg_section .content_box_why_pcos p{width:85%;line-height:normal;font-size:18px!important;font-weight:300;line-height:normal;margin-bottom:0}
 .treatment_all_comm_div.icon_without_bg_section p span{font-size:24px!important;font-weight:600}
 .treatment_all_comm_div.icon_without_bg_section .content_box_why_pcos{display:inline-flex;align-items:center}
