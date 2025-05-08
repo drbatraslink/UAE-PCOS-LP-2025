@@ -294,7 +294,7 @@ header{background:#fef6e2;position:fixed;top:0;z-index:1000!important}
 /* Footer css*/
 /*==========================================*/
 .addressSection{background-color:#383838;color:#fff}
-.addressSection .location-block h4{font-size:14px;font-weight:600}
+.addressSection .location-block h3{font-size:14px;font-weight:600}
 .addressSection .location-block p{font-size:13px;margin-bottom:0}
 .addressSection .location-block p span{font-weight:500}
 @media (max-width:575.98px){
