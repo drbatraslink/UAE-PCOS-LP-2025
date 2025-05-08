@@ -1,0 +1,333 @@
+@import url('../fonts/inter.css');
+
+body{font-family:Inter,sans-serif;font-size:16px;font-weight:400!important;color:#000000}
+*{font-family:Inter,sans-serif;font-weight:400}
+html{scroll-behavior:smooth}
+.font-500{font-weight:500!important}
+.form-control{border:1px solid #656565}
+.select2-container{z-index:9999}
+.treatment_all_comm_div p{font-size:18px!important;color:#000;font-weight:300}
+@media (max-width:1440px){
+.treatment_all_comm_div p{font-size:16px!important;color:#000}
+}
+header{background:#fef6e2;min-height:60px;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;box-shadow:0 4px 10px 0 rgba(0,0,0,.06)}
+@media (max-width:600px){
+header{background:#fef6e2;position:fixed;top:0;z-index:1000!important}
+}
+.terms-con-font-cls{color:#1a75ac}
+.carousel-indicators li{background-color:#2876a9;opacity:1}
+.carousel-indicators .active{background-color:#e41225;opacity:1}
+.head-main-tel{color:#173b63;font-weight:700;text-decoration:none}
+.head-main-tel:hover{color:#173b63;text-decoration:none}
+.headerno-cls{font-size:30px;color:#0c4679;margin-bottom:0}
+.treatment_all_heading_page{margin-bottom:10px;font-size:32px!important;color:#173d5b;font-weight:600}
+@media (max-width:1440px){
+.treatment_all_heading_page{margin-bottom:8px;font-size:30px!important}
+}
+@media (max-width:1280px){
+.treatment_all_heading_page{margin-bottom:8px;font-size:26px!important}
+}
+@media (max-width:600px){
+.treatment_all_heading_page{margin-bottom:10px;font-size:22px!important;text-align:left}
+}
+.owl-carousel .owl-item img{width:auto}
+.owl-carousel .owl-dots{display:none}
+
+/*==========================================*/
+/* New Banner css*/
+/*==========================================*/
+.banner-section-cls{background:url(../images/banner-bg-hair.webp) bottom center no-repeat;background-size:cover}
+@media (max-width:600px){
+.banner-section-cls{margin-top:60px;background:url(../images/banner-bg-hair-mob.webp) bottom center no-repeat;background-size:cover}
+}
+.banner_list_newhair{padding:0;margin:0;list-style:disc!important;line-height:normal;text-align:left;padding-inline-start:25px}
+.banner_list_newhair li{display:list-item;color:#000;font-weight:400;font-size:16px;position:relative;line-height:normal;margin-bottom:10px}
+.banner_list_newhair li strong{font-weight:600}
+.banner_list_newhair li:first-child{padding-top:8px;padding-left:0}
+@media screen and (max-width:768px){
+.banner_list_newhair{text-align:center;margin-bottom:10px;padding-inline-start:0px}
+.banner_list_newhair li{display:inline;font-size:14px}
+.banner_list_newhair li:first-child{padding-top:0;padding-left:0}
+.banner_list_newhair li:not(:last-child)::after{content:'•';margin:0 4px;color:#000}
+}
+.hair_banner_content h1{font-size:48px;font-weight:700!important;line-height:normal!important;color:#0b4481}
+.hair_banner_content h2{font-size:28px;font-weight:500;line-height:normal;color:#000}
+@media (max-width:1680px){
+.hair_banner_content h1{font-size:32px}
+.hair_banner_content h2{font-size:21px;line-height:normal}
+.img_banner_unit{width:72%}
+}
+@media (max-width:1280px){
+.hair_banner_content h1{font-size:28px}
+.hair_banner_content h2{font-size:18px;line-height:normal}
+.img_banner_unit{width:70%}
+}
+@media (max-width:1024px){
+.hair_banner_content h1{font-size:22px}
+.hair_banner_content h2{font-size:18px;line-height:normal}
+.img_banner_unit{width:65%}
+}
+@media (max-width:600px){
+.hair_banner_content{text-align:center}
+.hair_banner_content h1{font-size:28px}
+.hair_banner_content h2{font-size:18px;line-height:normal}
+.img_banner_unit{width:70%}
+}
+@media (max-width:390px){
+.hair_banner_content{text-align:center}
+.hair_banner_content h1{font-size:26px}
+.hair_banner_content h2{font-size:18px;line-height:normal}
+.img_banner_unit{width:70%}
+.banner_list_newhair li{font-size:12px}
+}
+.small_white_offer_offer{float:right;font-size:12px;font-weight:600;color:#173b63;margin-top:-25px}
+@media(max-width:600px){
+.small_white_offer_offer{float:right;font-size:6px;font-weight:600;color:#173b63;margin-top:-15px;margin-bottom:0}
+}
+/*=====================================================================*/
+/* Writing testmonilas css*/
+/*=====================================================================*/
+.treatment_all_comm_div.pcos_text_testmonilas{margin-top:50px}
+.treatment_all_comm_div .pcos-rating-box{height:360px;padding:30px 10px;background-color:#fef6e2;border-radius:20px;background-image:url(../images/banner-left-top.webp),url(../images/banner-right-bottom.webp);background-repeat:no-repeat;background-position:top 10px left 10px,bottom 10px right 10px;background-size:auto!important}
+.treatment_all_comm_div .pcos-rating-cls-para{padding-top:5px;font-size:18px;color:#000;font-weight:300;margin-bottom:5px}
+.treatment_all_comm_div .pcos-ourrating-subheading{font-size:16px;font-weight:600;margin-bottom:0;padding-bottom:0;color:#000}
+.treatment_all_comm_div .pcos-ourrating-subheading small{font-weight:600;font-size:14px}
+.treatment_all_comm_div .owl-dots{display:block;text-align:center}
+.treatment_all_comm_div .owl-dot{display:inline-block;margin:10px 5px 0}
+.treatment_all_comm_div .owl-dot span{width:12px;height:12px;background-color:#9c9c9c;display:block;border-radius:50%;transition:background-color .3s ease}
+.treatment_all_comm_div .owl-dot.active span{background-color:#1b3c62;border:2px solid #fff;outline:2px solid #1b3c62}
+@media(max-width:1299px){
+.treatment_all_comm_div .pcos-rating-box{height:315px}
+}
+@media(max-width:600px){
+.treatment_all_comm_div.pcos_text_testmonilas{margin-top:30px}
+.treatment_all_comm_div .pcos-rating-box{height:380px}
+.treatment_all_comm_div .pcos-ourrating-subheading{font-size:16px}
+.treatment_all_comm_div .pcos-rating-cls-para{padding-top:5px;font-size:16px;color:#000}
+}
+@media(max-width:430px){
+.treatment_all_comm_div .pcos-rating-box{height:310px}
+}
+@media(max-width:365px){
+.treatment_all_comm_div .pcos-rating-box{height:340px}
+}
+/*==========================================*/
+/* Blue Icon box section css*/
+/*==========================================*/
+.treatment_all_comm_div.blue_icon_box_section{margin-top:50px}
+.treatment_all_comm_div.blue_icon_box_section .container{padding:40px;background-color:#fef6e2;border-radius:20px}
+.treatment_all_comm_div.blue_icon_box_section .icon_box_why{width:56px;height:56px;padding:10px;margin-right:12px;background-color:#173b63;border-radius:6px}
+.treatment_all_comm_div.blue_icon_box_section p{line-height:normal;font-size:18px!important;font-weight:300;line-height:normal;margin-bottom:0}
+.treatment_all_comm_div.blue_icon_box_section p span{font-size:24px!important;font-weight:600}
+.treatment_all_comm_div.blue_icon_box_section .content_box_why_pcos{display:inline-flex;align-items:center}
+@media (max-width:1680px){
+.treatment_all_comm_div.blue_icon_box_section p{font-size:16px!important}
+}
+@media (max-width:600px){
+.treatment_all_comm_div.blue_icon_box_section{margin-top:0}
+.treatment_all_comm_div.blue_icon_box_section .container{padding:30px 15px}
+.treatment_all_comm_div.blue_icon_box_section p span{font-size:18px!important;font-weight:600}
+}
+/*=====================================================================*/
+/* Medicen Alopecia section css*/
+/*=====================================================================*/
+.treatment_all_comm_div.icon_without_bg_section{margin-top:40px}
+.treatment_all_comm_div.icon_without_bg_section .icon_box_why{width:56px;height:56px;padding:5px 0;margin-right:12px;background-color:#fff;border-radius:6px;text-align:center}
+.treatment_all_comm_div.icon_without_bg_section p{line-height:normal;font-size:18px!important;font-weight:300;line-height:normal;margin-bottom:0}
+.treatment_all_comm_div.icon_without_bg_section .content_box_why_pcos p{width:85%;line-height:normal;font-size:18px!important;font-weight:300;line-height:normal;margin-bottom:0}
+.treatment_all_comm_div.icon_without_bg_section p span{font-size:24px!important;font-weight:600}
+.treatment_all_comm_div.icon_without_bg_section .content_box_why_pcos{display:inline-flex;align-items:center}
+.treatment_all_comm_div.icon_without_bg_section h3{font-size:24px!important;font-weight:600}
+@media (max-width:1680px){
+.treatment_all_comm_div.icon_without_bg_section .content_box_why_pcos p,.treatment_all_comm_div.icon_without_bg_section p{font-size:16px!important}
+}
+@media (max-width:600px){
+.treatment_all_comm_div.icon_without_bg_section{margin-top:30px}
+.treatment_all_comm_div.icon_without_bg_section .container{padding:0 15px}
+.treatment_all_comm_div.icon_without_bg_section .content_box_why_pcos p{width:85%}
+.treatment_all_comm_div.icon_without_bg_section p span{font-size:18px!important;font-weight:600}
+.treatment_all_comm_div.icon_without_bg_section h3{font-size:18px!important;font-weight:600}
+}
+/*=====================================================================*/
+/* icon with Background section css*/
+/*=====================================================================*/
+.treatment_all_comm_div.icon_with_blue_patch_bg_section{margin-top:50px}
+.treatment_all_comm_div.icon_with_blue_patch_bg_section .icon_box_why{width:56px;height:56px;padding:10px;margin-right:12px;background-color:#173b63;border-radius:6px}
+.treatment_all_comm_div.icon_with_blue_patch_bg_section .content_box_why_pcos p{width:85%;line-height:normal;font-size:18px!important;font-weight:300;line-height:normal;margin-bottom:0}
+.treatment_all_comm_div.icon_with_blue_patch_bg_section .content_box_why_pcos p span{font-size:24px!important;font-weight:600}
+.treatment_all_comm_div.icon_with_blue_patch_bg_section .content_box_why_pcos{display:inline-flex;align-items:start}
+@media (max-width:1680px){
+.treatment_all_comm_div.icon_with_blue_patch_bg_section .content_box_why_pcos p,.treatment_all_comm_div.icon_with_blue_patch_bg_section p{font-size:16px!important}
+}
+@media (max-width:600px){
+.treatment_all_comm_div.icon_with_blue_patch_bg_section{margin-top:30px}
+.treatment_all_comm_div.icon_with_blue_patch_bg_section .content_box_why_pcos p{width:85%}
+.treatment_all_comm_div.icon_with_blue_patch_bg_section .content_box_why_pcos p span{font-size:18px!important;font-weight:600}
+}
+/*==========================================*/
+/* Lets talk css*/
+/*==========================================*/
+.treatment_all_comm_div.lets_talk_sec{margin-top:50px;background-color:#fef6e2;padding-top:35px;padding-bottom:35px}
+.treatment_all_comm_div.lets_talk_sec .talk_about_heading{font-size:42px!important;font-weight:600;color:#000;margin-bottom:0}
+.treatment_all_comm_div.lets_talk_sec .talk_about_btn{padding:10px;width:100%;margin-bottom:0;line-height:normal;color:#fff;border-radius:50px;font-weight:600;font-size:21px!important;border:none;background-color:#173b63!important;box-shadow:0 4px 15px rgb(175 173 173 / 18%)}
+.treatment_all_comm_div.lets_talk_sec .talk_about_btn:hover{color:#fff!important}
+.treatment_all_comm_div.lets_talk_sec p{font-size:16px!important;line-height:normal;margin-bottom:0}
+@media (max-width:1440px){
+.treatment_all_comm_div.lets_talk_sec .talk_about_heading{font-size:35px!important}
+.treatment_all_comm_div.lets_talk_sec .talk_about_btn{font-size:16px!important}
+}
+@media (max-width:768px){
+.treatment_all_comm_div.lets_talk_sec .talk_about_heading{font-size:30px!important}
+.treatment_all_comm_div.lets_talk_sec .talk_about_btn{font-size:16px!important}
+}
+@media (max-width:600px){
+.treatment_all_comm_div.lets_talk_sec .talk_about_heading{font-size:21px!important;font-weight:600;margin-bottom:10PX;text-align:center}
+.treatment_all_comm_div.lets_talk_sec .talk_about_btn{margin:0 auto!important;width:90%;margin-bottom:0;line-height:normal;color:#fff;border-radius:50px;font-weight:600;font-size:18px!important;border:none;background-color:#173b63!important;box-shadow:0 4px 15px rgb(175 173 173 / 18%)}
+.treatment_all_comm_div.lets_talk_sec{margin-top:30px}
+.treatment_all_comm_div.lets_talk_sec p{text-align:center;margin-bottom:10px;font-size:14px!important}
+}
+/*==========================================*/
+/* Contact css*/
+/*==========================================*/
+.error{color:red!important;font-size:12px;margin-bottom:0}
+.btn-form{text-transform:uppercase;font-weight:700!important;font-size:1em;line-height:1em;background:#0073ad!important;color:#fff!important;border:none;padding:15px 30px 10px 30px;border-radius:30px!important;box-shadow:0 2px 5px rgb(0 0 0 / 30%)!important;transition:.5s;outline:0!important}
+.form-widget .dblogo{margin:0 auto;display:block;margin-top:-50px;position:absolute;left:0;right:0}
+.form-group label{display:block;overflow:auto;font-size:14px;font-weight:600;color:#212121}
+.form-widget .card-body{border:none!important}
+.form-widget .form-group{width:100%!important;display:block}
+.contactFormHolder{position:absolute;right:90px;top:90px;width:315px;z-index:9}
+.contactForm{min-height:100px;background:#fff;box-shadow:0 2px 5px rgba(0,0,0,.3);border-radius:0;padding:0 0 20px 0}
+.formLogo{max-width:120px;margin:0 auto;margin-top:-40px;padding:2px;background:#fff;box-shadow:0 0 5px rgba(0,0,0,.3)}
+.formLogo img{display:block;width:100%;height:auto;margin:auto auto;position:relative;z-index:1}
+.contactForm h2{font-size:1.25em;line-height:1em;font-weight:700;font-style:normal;text-align:center;margin:0;padding:10px 0 15px 0}
+.contactForm .form-control,.form-select{height:40px;width:100%;outline:0;box-shadow:none;border-color:#a6a8ab;border-radius:0;font-size:14px;padding:5px 10px}
+.contactForm .form-control:focus{border-color:#0073ad}
+.contactForm select.form-control{background:#fff url(../../image/hairloss_images_v2/arrow-down.webp) no-repeat right 10px center;appearance:none}
+.contactForm select.form-control::-ms-expand{display:none}
+.contactForm .row{margin-bottom:1rem}
+.contactForm .form-check-label{font-size:8px}
+.contactForm .form-check-label a{color:#0e74af}
+.contactForm .form-action{text-align:center;padding-top:15px}
+.btn-primary{outline:0;border:none;font-weight:400;text-transform:uppercase;font-size:1em;line-height:1em;background:#0073ad!important;color:#fff!important;border:none;padding:15px 30px 10px 30px;border-radius:30px;box-shadow:0 2px 5px rgba(0,0,0,.3)!important;transition:.5s;outline:0!important}
+.btn-primary:hover{background:#d5d0c9!important;color:#000!important}
+.form-para-text{font-size:14px;font-weight:500}
+.form-select{color:#495057}
+.chat-popup h2{font-size:1.25em;line-height:1em;font-weight:700;font-style:normal;text-align:center;margin:0;padding:10px 0 15px 0}
+.chat-popup .form-control,.form-select{height:40px;width:100%;outline:0;box-shadow:none;border-color:#a6a8ab;border-radius:0;font-size:14px;padding:5px 10px}
+.chat-popup .form-control:focus{border-color:#0073ad}
+.chat-popup select.form-control{background:#fff url(../../image/hairloss_images_v2/arrow-down.webp) no-repeat right 10px center;appearance:none}
+.chat-popup select.form-control::-ms-expand{display:none}
+.chat-popup .row{margin-bottom:1rem}
+.chat-popup .form-check-label{font-size:8px}
+.chat-popup .form-check-label a{color:#0e74af}
+.chat-popup .form-action{text-align:center;padding-top:15px}
+@media (max-width:1600px){
+.contactFormHolder{right:30px;top:90px;width:300px;z-index:9}
+}
+@media (max-width:1400px){
+.contactFormHolder{right:20px;top:90px;width:300px;z-index:9}
+}
+@media (max-width:1024px){
+.contactFormHolder{right:10px;top:30px;width:300px;z-index:9}
+}
+@media (max-width:992px){
+.contactFormHolder{position:static;display:inline-block;right:auto;top:75px;width:100%;z-index:3;padding:40px 30px 40px 30px}
+.contactForm{max-width:600px;margin:0 auto}
+}
+@media (max-width:767px){
+.contactFormHolder{background-color:#fff}
+.formLogo{display:none}
+.contactForm h2{font-size:1.5em;padding-top:0}
+.btn-primary{font-size:1em}
+}
+.form_head_text{font-size:18px;line-height:normal;font-weight:500;color:#212121}
+.book_btn{width:100%;background:#ea1f27;color:#fff;padding:5px 25px;font-weight:600;border-radius:0}
+.form-check-label{font-size:10px}
+.open-btn-cls-new{background-color:#2876a9;color:#fff;font-size:20px;width:100%;text-decoration:none;padding:20px 0;height:60px;text-transform:uppercase;font-weight:500;font-size:16px;line-height:24px}
+.open-button{background-color:#e41225;color:#fff;padding:10px 12px;border:none;cursor:pointer;position:fixed;bottom:18px;right:19px;width:250px;font-weight:500;font-size:16px;line-height:20px}
+.chat-popup{width:320px;display:none;position:fixed;bottom:0;right:15px;z-index:9}
+.form-container{background:#fff;box-shadow:0 2px 5px rgba(0,0,0,.3);border-radius:0;padding:5px}
+.form-container .cancel{position:absolute;right:-12px;top:-22px;width:45px;height:45px;background-color:#212121;padding:16px;line-height:15px;border:none;cursor:pointer;margin-bottom:10px;border-radius:50%;box-shadow:0 2px 5px rgba(0,0,0,.3);opacity:.8}
+.form-container .btn:hover,.open-button:hover{opacity:1}
+@media (max-width:600px){
+.open-button{height:52px;background-color:#e41225;color:#fff;padding:10px 20px;border:none;cursor:pointer;position:fixed;bottom:0;right:auto;left:0;width:100%;font-weight:600;line-height:18px}
+.open-btn-cls-new:hover{font-weight:600;text-decoration:none;color:#fff}
+.chat-popup{width:92%;display:none;position:fixed;bottom:0;left:15px;right:15px;z-index:9}
+.contactForm{min-height:100px;background:#fff;box-shadow:0 2px 5px rgba(0,0,0,.3);border-radius:0;padding:0 0 20px 0}
+}
+.google_strip_gredint{text-align:center;padding:10px 30px;background:linear-gradient(90deg,#0d2334 0,#173d5b 51%,#0d2334 100%);display:flex;align-items:center}
+.google_strip_gredint p{padding:4px 0 0 5px;margin-bottom:0;color:#fff;font-size:13px;font-weight:500;text-align:left}
+.form-top-new{padding:15px 15px 0 15px}
+#form-area-scroll{transition:margin-top .3s ease;scroll-margin-top:60px}
+@media (max-width:600px){
+.google_strip_gredint p{font-size:12px}
+}
+/*==========================================*/
+/* back to top css*/
+/*==========================================*/
+.scrollToTopBtn{border:none;border-radius:50%;color:#fff;cursor:pointer;font-size:30px!important;line-height:48px;width:48px;position:fixed;bottom:120px;right:10px;z-index:100;opacity:0;transform:translateY(100px);transition:all .5s ease;box-shadow:0 4px 15px rgb(175 173 173 / 18%)}
+.showBtn{opacity:1;transform:translateY(0)}
+.scrollToTopBtn img{padding:10px;margin-right:12px;background-color:#173b63;border-radius:50px}
+@media screen and (max-width:600px){
+.scrollToTopBtn{width: 42px;bottom: 115px;right: 9px;}
+}
+/*==========================================*/
+/* FAQ css*/
+/*==========================================*/
+.treatment_all_comm_div.faq_accordation_section{margin-top:50px;margin-bottom:50px}
+.treatment_all_comm_div.faq_accordation_section .accordion{display:flex;flex-direction:column;gap:10px;width:100%}
+.treatment_all_comm_div.faq_accordation_section .accordion__item{border:1px solid #ecf0f2;border-radius:10px;overflow:hidden;transition:border .3s}
+.treatment_all_comm_div.faq_accordation_section .accordion__header{padding:20px 25px;font-weight:600;cursor:pointer;position:relative;font-size:18px !important}
+.treatment_all_comm_div.faq_accordation_section .accordion__header::after{content:"";background:url('../images/angle-down.svg') no-repeat center;width:20px;height:20px;transition:.4s;display:inline-block;position:absolute;right:15px;top:20px}
+.treatment_all_comm_div.faq_accordation_section .accordion__header.active{background:#ecf0f2;}
+.treatment_all_comm_div.faq_accordation_section .accordion__header.active::after{transform:rotateX(180deg)}
+.treatment_all_comm_div.faq_accordation_section .accordion__item.active{border:1px solid #000;}
+.treatment_all_comm_div.faq_accordation_section .accordion__item.active .accordion__content{max-height: 600px !important; height: auto;}
+.treatment_all_comm_div.faq_accordation_section .accordion__item .accordion__content{padding:0 25px;max-height:0;transition:.5s;overflow:hidden;background:#ecf0f2;font-size:16px !important;font-weight:400}
+.treatment_all_comm_div.faq_accordation_section .accordion__item .accordion__content p{margin-bottom:15px}
+.treatment_all_comm_div.faq_accordation_section .accordion__item ul{padding-inline-start: 20px;}
+@media screen and (max-width:600px){
+.treatment_all_comm_div.faq_accordation_section{margin-top:30px;margin-bottom:30px}
+.treatment_all_comm_div.faq_accordation_section .accordion__header{padding:15px 25px;font-weight:600;cursor:pointer;position:relative;font-size:16px !important}
+}
+/*==========================================*/
+/* Footer css*/
+/*==========================================*/
+.addressSection{background-color:#383838;color:#fff}
+.addressSection .location-block h4{font-size:14px;font-weight:600}
+.addressSection .location-block p{font-size:13px;margin-bottom:0}
+.addressSection .location-block p span{font-weight:500}
+@media (max-width:575.98px){
+.fade-bg{background:#fffefa;opacity:.9}
+.addressSection .location-block p{font-size:14px}
+.addressSection .location-block p br{display:none}
+}
+.text-play-btn-img{width:30px!important;margin-right:10px!important}
+.popup-vimeo:hover{text-decoration:none}
+.para-google-rationg-op{background-color:#fff;height:55px;position:relative;z-index:999;color:#fff}
+@media (max-width:575.98px){
+.mfp-iframe-holder .mfp-content{width:100%;max-width:100%;height:100%}
+}
+.footer{background:#262626;color:#fff;font-size:13px;padding:15px 0;font-weight:500!important}
+.copyright{font-weight:500}
+.footerLink ul{padding:0;margin:0;list-style:none}
+.footerLink ul li{display:inline}
+.footerLink ul li a{display:inline-block;color:#fff;font-weight:500;padding:0 15px;position:relative}
+.footerLink ul li a:hover{text-decoration:none}
+.footerLink ul li a:after{content:'';height:100%;position:absolute;right:-5px;top:50%;width:5px;height:5px;display:inline-block;background:#fff;border-radius:50%;-webkit-transform:translateY(-50%);transform:translateY(-50%)}
+.footerLink ul li:last-child a:after{content:none;display:none}
+.social-media a{padding:5px;margin:0 5px;font-weight:500}
+@media (max-width:575.98px){
+.footer{margin-bottom:52px}
+.footerLink ul li:nth-child(2) a:after{content:none;display:none}
+}
+/*==========================================*/
+/* Whatsapp css*/
+/*==========================================*/
+.whatsapp-img-section{position:fixed;z-index:8;bottom:0}
+.whatsapp-open-button-img{padding:10px 12px;cursor:pointer;position:fixed;bottom:62px;right:-5px!important;width:auto!important}
+.whatsapp-img{width:250px;height:55px}
+@media (max-width:600px){
+.whatsapp-open-button-img{right:-101px;width:250px}
+.whatsapp-img{width:220px;height:49px}
+}
